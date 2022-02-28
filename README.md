@@ -11,6 +11,35 @@ This is a unofficial simple backblaze CLI for CRUD based actions.
 npm i backblaze-cli -g
 ```
 
+# Authorization
+
+All commands require being authenticated to backblaze:
+
+## Getting auth information
+
+1. On your backblaze account dashboard go to the section "App Keys"
+2. Create an application key
+3. Copy down your keyID (key id) and applicationKey (key)
+4. Put this into the cli in one of the methods below
+
+## Passing in auth information
+
+- CLI Flags:
+
+  ```
+  --bucket <bucket>  The bucket to make requests to
+  --key-id <key-id>  The key id to use
+  --key <key>        The application key to use
+  ```
+
+- You can also use environment variables:
+
+  ```
+  BACKBLAZE_BUCKET=     # The bucket name
+  BACKBLAZE_KEY_ID=     # The key id
+  BACKBLAZE_KEY=        # The application key
+  ```
+
 # Usage
 
 ```
