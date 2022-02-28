@@ -42,7 +42,7 @@ for (const command of program.commands)
 
 // Run
 program
-    .name('Backblaze CLI')
+    .name('backblaze')
     .description(
         'A simple unofficial cli to interact with the Backblaze B2 API',
     )

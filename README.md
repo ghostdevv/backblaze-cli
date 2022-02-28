@@ -14,7 +14,7 @@ npm i backblaze-cli -g
 # Usage
 
 ```
-Usage: Backblaze CLI [options] [command]
+Usage: backblaze [options] [command]
 
 A simple unofficial cli to interact with the Backblaze B2 API
 
