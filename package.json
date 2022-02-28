@@ -1,0 +1,41 @@
+{
+  "name": "backblaze-cli",
+  "version": "1.0.0",
+  "author": "GHOST",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "tsup-node --watch src",
+    "build": "tsup-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostdevv/backblaze-cli.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ghostdevv/backblaze-cli/issues"
+  },
+  "homepage": "https://github.com/ghostdevv/backblaze-cli#readme",
+  "devDependencies": {
+    "@types/yargs": "^17.0.8",
+    "tsup": "^5.11.13"
+  },
+  "dependencies": {
+    "backblaze": "^2.3.0",
+    "yargs": "^17.3.1"
+  }
+}
