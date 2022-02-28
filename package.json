@@ -1,6 +1,6 @@
 {
   "name": "backblaze-cli",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "type": "module",
   "author": "GHOST",
   "license": "MIT",
@@ -22,7 +22,11 @@
     "type": "git",
     "url": "git+https://github.com/ghostdevv/backblaze-cli.git"
   },
-  "keywords": [],
+  "keywords": [
+    "backblaze",
+    "backblaze-cli",
+    "backblaze object upload"
+  ],
   "bugs": {
     "url": "https://github.com/ghostdevv/backblaze-cli/issues"
   },
