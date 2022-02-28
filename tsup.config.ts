@@ -4,9 +4,9 @@ export const tsup: Options = {
     splitting: false,
     sourcemap: false,
     clean: true,
-    dts: true,
+    dts: false,
     keepNames: true,
     target: 'esnext',
-    format: ['esm', 'cjs'],
+    format: ['esm'],
     entryPoints: ['src/index.ts'],
 };
