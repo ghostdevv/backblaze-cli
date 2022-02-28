@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "author": "GHOST",
   "license": "MIT",
+  "types": "./dist/index.d.ts",
   "bin": {
-    "backblaze": "./dist/index.mjs"
+    "backblaze": "./dist/index.mjs",
+    "backblaze-cli": "./dist/index.mjs"
   },
   "files": [
     "dist",

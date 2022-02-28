@@ -4,7 +4,7 @@ export const tsup: Options = {
     splitting: false,
     sourcemap: false,
     clean: true,
-    dts: false,
+    dts: true,
     keepNames: true,
     target: 'esnext',
     format: ['esm'],
